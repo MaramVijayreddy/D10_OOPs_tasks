@@ -14,9 +14,9 @@ class Car(Vehicle):
         super().__init__(brand, color, model) 
     def start(self):
         print("CAR is started")
-        print("carbrand: ",self.get_brand())
-        print("color: ",self.color)
-        print("model: ",self.model)
+        print("carbrand of the car: ",self.get_brand())
+        print("colorof the car: ",self.color)
+        print("modelof the car: ",self.model)
 class Bike(Vehicle):
     def __init__(self, brand, color, model):
         super().__init__(brand, color, model)
